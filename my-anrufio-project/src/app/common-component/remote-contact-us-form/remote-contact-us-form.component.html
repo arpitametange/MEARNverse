@@ -1,0 +1,53 @@
+<div class="bg-white rounded-xl shadow-lg p-6">
+    <h3 class="text-xl font-semibold text-gray-900">
+        Join Mearnverse Today
+    </h3>
+    <p class="text-gray-500 text-sm mt-1">
+        Learn MERN stack with real projects, mentorship, and lifetime access.
+    </p>
+
+    <!-- Form -->
+    <form class="mt-6 space-y-4">
+        <!-- Name -->
+        <div>
+            <label for="name" class="block text-gray-700 font-medium">Name</label>
+            <input type="text" id="name" name="name"
+                class="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500" />
+        </div>
+        <!-- Email & Phone -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <label for="email" class="block text-gray-700 font-medium">Email</label>
+                <input type="email" id="email" name="email"
+                    class="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500" />
+            </div>
+            <div>
+                <label for="phone" class="block text-gray-700 font-medium">Phone (optional)</label>
+                <input type="tel" id="phone" name="phone"
+                    class="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500" />
+            </div>
+        </div>
+        <!-- Learning Goals -->
+        <div>
+            <label for="goals" class="block text-gray-700 font-medium">Your Learning Goals</label>
+            <textarea id="goals" name="goals" rows="4"
+                class="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+        </div>
+        <!-- Updates Checkbox -->
+        <div class="flex items-center">
+            <input type="checkbox" id="updates" name="updates"
+                class="h-4 w-4 text-green-800 border-gray-300 rounded focus:ring-0" />
+            <label for="updates" class="ml-2 text-gray-700 text-sm">I want updates on new courses</label>
+        </div>
+        <!-- Submit Button -->
+        <button type="submit"
+            class="bg-green-700 text-white py-2 px-4 rounded hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-green-900 focus:ring-offset-2">
+            Get Started
+        </button>
+    </form>
+
+    <!-- Note -->
+    <p class="text-gray-500 text-xs mt-3">
+        We respect your privacy. Your details will only be used to send course information.
+    </p>
+</div>
